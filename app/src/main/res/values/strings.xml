@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ideacoolweather</string>
+    <string name="tab_weather">天气</string>
+    <string name="tab_play">播放</string>
+    <string name="tab_joke">笑话</string>
+    <string name="tab_my">我的</string>
+</resources>

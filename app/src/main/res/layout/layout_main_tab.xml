@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RadioGroup
+    android:id="@+id/radioGroup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    android:padding="5dp" >
+
+    <RadioButton
+        android:id="@+id/tab_weather"
+        android:drawableTop="@drawable/rb_chat_selector"
+        style="@style/Widget.TabIndicator_three"
+        android:text="@string/tab_weather" />
+
+    <RadioButton
+        android:id="@+id/tab_play"
+        android:drawableTop="@drawable/rb_contacts_selector"
+        style="@style/Widget.TabIndicator_three"
+        android:text="@string/tab_play" />
+
+    <RadioButton
+        android:id="@+id/tab_joke"
+        android:drawableTop="@drawable/rb_discovery_selector"
+        style="@style/Widget.TabIndicator_three"
+        android:text="@string/tab_joke"/>
+
+    <RadioButton
+        android:id="@+id/tab_my"
+        android:drawableTop="@drawable/rb_me_selector"
+        style="@style/Widget.TabIndicator_three"
+        android:text="@string/tab_my" />
+
+</RadioGroup>
+    </LinearLayout>
